@@ -1,0 +1,12 @@
+Grace Meredith
+CS446 HW1 Part 2 Questions
+4 March 2022
+
+1) A system call is when a program requests a service from the kernal of the OS. We see examples of this when implemented our file management (change directories function) and when we read/write to files. 
+
+2) execvp & execve both replace the current process with a new process, but execvp works through the files of the environment while execve works through the enviornment's path.
+
+3) We need to consider whether or not memory is deallocated properly so there are no memory leaks. Kill is easier because it takes that responsibilty away from the program, but it has some security issues.
+
+4) One issue is that there are no clear instructions to the user, unless they figure out the help command, so I would add a "try typing help" option for the shell. I would also reorganize the function calls so that they are more seamless. 
+

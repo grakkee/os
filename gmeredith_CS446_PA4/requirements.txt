@@ -1,0 +1,4 @@
+Pillow
+SciPy
+numpy
+pyOpenSSL
